@@ -1,0 +1,21 @@
+name: test
+
+on:
+  push:
+    branches: [main]
+    paths: ["Formula/**"]
+  pull_request:
+    paths: ["Formula/**"]
+
+jobs:
+  install:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: brew tap sergio-prog/tap "$PWD"
+      - run: brew install --verbose sergio-prog/tap/chainq
+      - run: brew test sergio-prog/tap/chainq
+      - run: |
+          chainq version
+          chainq networks -q | head -3
+          chainq price btc
