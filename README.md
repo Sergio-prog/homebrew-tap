@@ -2,6 +2,7 @@
 
 ```bash
 brew install sergio-prog/tap/chainq
+brew install --cask --no-quarantine nowsee
 ```
 
 Formulae here are updated automatically by release workflows in their source repos.
@@ -9,3 +10,11 @@ Formulae here are updated automatically by release workflows in their source rep
 | Formula | Description | Source |
 |---|---|---|
 | `chainq` | Agent-friendly CLI for onchain and crypto market data | [Sergio-prog/chainq](https://github.com/Sergio-prog/chainq) |
+
+| Cask | Description | Source |
+|---|---|---|
+| `nowsee` | Live visualizer for macOS system audio, in the menu bar and in a window | [Sergio-prog/Nowsee](https://github.com/Sergio-prog/Nowsee) |
+
+Nowsee is signed but not notarized, so Homebrew's quarantine attribute would make Gatekeeper
+refuse the first launch. Install it with `--no-quarantine`, or open it once from Finder with
+right-click → Open.
