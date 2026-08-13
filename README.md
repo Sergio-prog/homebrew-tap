@@ -21,5 +21,13 @@ Formulae here are updated automatically by release workflows in their source rep
 |---|---|---|
 | `nowsee` | Live visualizer for macOS system audio, in the menu bar and in a window | [Sergio-prog/Nowsee](https://github.com/Sergio-prog/Nowsee) |
 
-Nowsee is signed but not notarized. If macOS blocks the first launch, open `/Applications` in
-Finder, Control-click Nowsee, choose **Open**, then confirm **Open**.
+Nowsee is self-signed and not yet notarized by Apple. After macOS blocks the first launch, open
+**System Settings → Privacy & Security**, scroll to **Security**, click **Open Anyway** next to
+Nowsee, authenticate, then confirm **Open**.
+
+If you trust this tap and prefer the terminal:
+
+```sh
+xattr -dr com.apple.quarantine /Applications/Nowsee.app
+open -a Nowsee
+```
