@@ -2,8 +2,14 @@
 
 ```bash
 brew install sergio-prog/tap/chainq
+
+brew tap sergio-prog/tap
+brew trust --cask sergio-prog/tap/nowsee
 brew install --cask --no-quarantine nowsee
 ```
+
+The trust command approves only the Nowsee cask. Use `brew trust sergio-prog/tap` only if you want
+to trust every current and future package in this tap.
 
 Formulae here are updated automatically by release workflows in their source repos.
 
