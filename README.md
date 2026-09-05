@@ -3,6 +3,7 @@
 ```bash
 brew install sergio-prog/tap/chainq
 brew install sergio-prog/tap/fram
+brew install sergio-prog/tap/ghosttype
 
 brew tap sergio-prog/tap
 brew trust --cask sergio-prog/tap/nowsee
@@ -12,12 +13,13 @@ brew install --cask nowsee
 The trust command approves only the Nowsee cask. Use `brew trust sergio-prog/tap` only if you want
 to trust every current and future package in this tap.
 
-Formulae here are updated automatically by release workflows in their source repos.
+`chainq` and `fram` are updated automatically by release workflows in their source repos. `ghosttype` and the `nowsee` cask are bumped by hand.
 
 | Formula | Description | Source |
 |---|---|---|
 | `chainq` | Agent-friendly CLI for onchain and crypto market data | [Sergio-prog/chainq](https://github.com/Sergio-prog/chainq) |
 | `fram` | Compact media workshop for terminal and agent automation | [Sergio-prog/fram](https://github.com/Sergio-prog/fram) |
+| `ghosttype` | TUI font & theme picker for Ghostty with live previews and instant reload (macOS only) | [Sergio-prog/ghosttype](https://github.com/Sergio-prog/ghosttype) |
 
 | Cask | Description | Source |
 |---|---|---|
