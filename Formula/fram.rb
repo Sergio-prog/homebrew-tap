@@ -3,8 +3,8 @@ class Fram < Formula
 
   desc "Compact media workshop for terminal and agent automation"
   homepage "https://fram.serhiifotex.dev/"
-  url "https://github.com/Sergio-prog/fram/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "c859d8d97019d96aaf2e054969c06f9732dc9a1737875cf1b75c4cc119e8e224"
+  url "https://github.com/Sergio-prog/fram/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "830dea25ae7060dc9de263d35bc1151b349f4e405f94f1152db20e649cb5f6a1"
   license "MIT"
   head "https://github.com/Sergio-prog/fram.git", branch: "main"
 
