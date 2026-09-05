@@ -19,3 +19,14 @@ jobs:
           chainq version
           chainq networks -q | head -3
           chainq price btc
+
+  fram:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: brew tap sergio-prog/tap "$PWD"
+      - run: brew install --verbose sergio-prog/tap/fram
+      - run: brew test sergio-prog/tap/fram
+      - run: |
+          fram version
+          fram --help

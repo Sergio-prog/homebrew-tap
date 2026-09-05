@@ -2,6 +2,7 @@
 
 ```bash
 brew install sergio-prog/tap/chainq
+brew install sergio-prog/tap/fram
 
 brew tap sergio-prog/tap
 brew trust --cask sergio-prog/tap/nowsee
@@ -16,6 +17,7 @@ Formulae here are updated automatically by release workflows in their source rep
 | Formula | Description | Source |
 |---|---|---|
 | `chainq` | Agent-friendly CLI for onchain and crypto market data | [Sergio-prog/chainq](https://github.com/Sergio-prog/chainq) |
+| `fram` | Compact media workshop for terminal and agent automation | [Sergio-prog/fram](https://github.com/Sergio-prog/fram) |
 
 | Cask | Description | Source |
 |---|---|---|
