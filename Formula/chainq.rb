@@ -3,8 +3,8 @@ class Chainq < Formula
 
   desc "Agent-friendly CLI for onchain and crypto market data"
   homepage "https://github.com/Sergio-prog/chainq"
-  url "https://files.pythonhosted.org/packages/5b/ee/5bd560bcccde83571f83607c193edcab8124b96f0d1f8ccbb93d7e8611e4/chainq-0.20.2.tar.gz"
-  sha256 "4467fa388f74e106ff3c382639d167c96655386d762c3f3003c0a732123c7b1b"
+  url "https://files.pythonhosted.org/packages/21/e9/6cd79e9f3f338cf92a19666ea3927c9b59cf39616009ab98add26315eedf/chainq-0.21.0.tar.gz"
+  sha256 "52d27aea68f3c9d717d6799a842d970acf403693e14c03260ce70f6a96cd2c35"
   license "MIT"
 
   depends_on "python@3.12"
